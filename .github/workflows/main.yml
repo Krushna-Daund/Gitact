@@ -3,7 +3,7 @@ name: Basic Commands
 on:
   push:
     branches:
-      -main
+      - main
 
 jobs:
   testing:
@@ -19,5 +19,5 @@ jobs:
         run: date
       - name: Create and display a text file 
         run: |
-          echo "This is a demo file"> demo.txt
+          echo "This is a demo file" > demo.txt
           
