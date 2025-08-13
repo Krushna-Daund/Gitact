@@ -7,7 +7,7 @@ on:
 
 jobs:
   testing:
-    runs-on: ubuantu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Show current working directory
